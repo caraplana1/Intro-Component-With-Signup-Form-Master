@@ -1,4 +1,33 @@
 body{
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
+	background-color: hsl(0, 100%, 74%);
+}
+
+#card{
+	background-color: white;
+	border-radius: .5rem;
+}
+
+#info{
+	background-color: hsl(248, 32%, 49%);
+	border-radius: .5rem;
+}
+
+.register{
+	background-color: hsl(154, 59%, 51%);
+}
+
+/*Mobile Screen*/
+@media (max-width: 375px){
+	body{
+		background-image: url("./images/bg-intro-mobile.png");
+	}
+}
+
+/*Desktop Screen*/
+@media (min-width: 375px){
+	body{
+		background-image: url("./images/bg-intro-desktop.png");
+	}
 }
