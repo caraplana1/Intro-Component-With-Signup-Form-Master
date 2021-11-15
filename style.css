@@ -2,6 +2,7 @@ body{
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	background-color: hsl(0, 100%, 74%);
+	color: white;
 }
 
 #card{
@@ -9,13 +10,22 @@ body{
 	border-radius: .5rem;
 }
 
+#card p{
+	color: hsl(246, 25%, 77%);
+}
+
 #info{
 	background-color: hsl(248, 32%, 49%);
 	border-radius: .5rem;
 }
 
+.terms{
+	color: hsl(0, 100%, 74%);
+}
+
 .register{
 	background-color: hsl(154, 59%, 51%);
+	border-radius: .5rem;
 }
 
 /*Mobile Screen*/
