@@ -8,6 +8,8 @@ body{
 #card{
 	background-color: white;
 	border-radius: .5rem;
+	display: flex;
+	flex-direction: column;
 }
 
 #card p{
@@ -23,15 +25,23 @@ body{
 	color: hsl(0, 100%, 74%);
 }
 
-.register{
+#register{
 	background-color: hsl(154, 59%, 51%);
 	border-radius: .5rem;
+}
+
+.centertxt{
+	text-align: center;
 }
 
 /*Mobile Screen*/
 @media (max-width: 375px){
 	body{
 		background-image: url("./images/bg-intro-mobile.png");
+	}
+
+	#description{
+		text-align: center;
 	}
 }
 
@@ -40,4 +50,11 @@ body{
 	body{
 		background-image: url("./images/bg-intro-desktop.png");
 	}
+
+	main{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		align-items: center;
+	}
+
 }
