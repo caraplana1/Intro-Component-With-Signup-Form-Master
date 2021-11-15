@@ -55,6 +55,23 @@ body{
 		display: grid;
 		grid-template-columns: 50% 50%;
 		align-items: center;
+		padding: 15% 10%;
+	}
+
+	#card{
+		padding: 0% 7.5%;
+	}
+
+	#description{
+		padding-right: 10%;
+	}
+
+	#description h1{
+		font-size: 250%;
+	}
+
+	#info{
+		margin-bottom: 5%;
 	}
 
 }
