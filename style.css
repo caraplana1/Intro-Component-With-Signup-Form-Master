@@ -34,12 +34,6 @@ body{
 	text-align: center;
 }
 
-input{
-	border-color: hsl(246, 25%, 77%);
-	border-style: solid;
-	border-radius: .25rem;
-	padding: 3% 5%;
-}
 
 /*Mobile Screen*/
 @media (max-width: 375px){
@@ -74,6 +68,13 @@ input{
 		padding-right: 10%;
 	}
 
+	input{
+		border-color: hsl(246, 25%, 77%);
+		border-style: solid;
+		border-radius: .25rem;
+		padding: 3% 5%;
+	}
+
 	#description h1{
 		font-size: 250%;
 	}
@@ -93,5 +94,9 @@ input{
 
 	#card *{
 		margin-top: 6%;
+	}
+
+	#register:hover{
+		cursor: pointer;
 	}
 }
