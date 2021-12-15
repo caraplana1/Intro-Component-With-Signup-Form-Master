@@ -62,7 +62,8 @@ input{
 		display: grid;
 		grid-template-columns: 50% 50%;
 		align-items: center;
-		padding: 5% 10%;
+		padding: 0% 10%;
+		margin: 5% 0%;
 	}
 
 	#card{
@@ -79,6 +80,11 @@ input{
 
 	#info{
 		margin-bottom: 5%;
+		box-shadow: 0px 10px hsla(0, 50%, 50%, 0.3);
+	}
+
+	#register{
+		box-shadow: 0px 5px hsla(154, 59%, 51%, 0.7);
 	}
 
 	#info, #register{
