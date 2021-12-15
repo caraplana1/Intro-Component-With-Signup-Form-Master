@@ -40,9 +40,49 @@ body{
 	body{
 		background-image: url("./images/bg-intro-mobile.png");
 	}
+	
+	main{
+		margin: 25% 7.5%;
+	}
 
 	#description{
 		text-align: center;
+	}
+
+	#description *{
+		margin-bottom: 7.5%;
+	}
+
+	#description p{
+		margin-bottom: 25%;
+	}
+
+	#info{
+		padding: 5% 10%;
+		margin-bottom: 10%;
+		box-shadow: 0px 10px hsla(0, 50%, 50%, 0.3);
+	}
+
+	#card{
+		padding: 10% 7.5%;
+	}
+
+	#card *{
+		margin-bottom: 5%;
+	}
+
+	input{
+		border-color: hsl(246, 25%, 77%);
+		border-style: solid;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		border-radius: .25rem;
+		padding: 4.5%;
+	}
+
+	#register{
+		padding: 5%;
+		box-shadow: 0px 5px hsla(154, 59%, 51%, 0.7);
 	}
 }
 
@@ -70,6 +110,8 @@ body{
 
 	input{
 		border-color: hsl(246, 25%, 77%);
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
 		border-style: solid;
 		border-radius: .25rem;
 		padding: 3% 5%;
