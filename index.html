@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 	
 	<title>Frontend Mentor | Intro component with sign up form</title>
 
@@ -37,11 +38,15 @@
 
 			<div id="card">
 				<input type="text" name="Fname" placeholder="First Name">
+				<p id="Fname"></p>
 				<input type="text" name="Lname" placeholder="Last Name">
+				<p id="Lname"></p>
 				<input type="text" name="email" placeholder="Email Address">
+				<p id="email"></p>
 				<input type="password" name="password" placeholder="Password">
+				<p id="password"></p>
 
-				<div id="register" class="centertxt" onclick="">CLAIM YOUR FREE TRIAL</div>
+				<div id="register" class="centertxt" onclick="Register()">CLAIM YOUR FREE TRIAL</div>
 
 				<p class="centertxt">By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></p>
 				
